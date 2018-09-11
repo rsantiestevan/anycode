@@ -1,0 +1,33 @@
+.dialog {
+  background-color: #FFF;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  box-shadow: 0 1px 6px rgba(0,0,0,0.12), 0 1px 4px rgba(0,0,0,0.12);
+  border-radius: 2px;
+  z-index: 1001;
+  
+  display: none;
+  position: fixed;
+  width: 394px;
+  top: 50%;
+  left: 50%;
+  margin: -200px 0 0 -200px;
+  
+}
+.dialog-title,
+.dialog-actions,
+.dialog-content {
+  background-color: #FFF;
+  background-image: none;
+  padding: 16px;
+  clear: both;
+}
+.dialog-content,
+.dialog-actions {
+  padding-top: 0;
+}
+.dialog-actions {
+  text-align: right;
+}
+
+
